@@ -43,3 +43,11 @@ form {
 h1 {
   text-align: center;
 }
+
+.input-erro {
+  border-color: red;
+}
+
+.input-valido {
+  border-color: green;
+}

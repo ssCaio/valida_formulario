@@ -36,8 +36,6 @@ function atualizaCampo() {
   });
 }
 
-atualizaCampo();
-
 function fetcCep() {
   const campoCep = document.querySelector("[data-js='cep']").value;
   const formataCep = campoCep.replace("-", "");
@@ -60,3 +58,5 @@ botaoCep.addEventListener("click", (e) => {
   e.preventDefault();
   fetcCep();
 });
+
+atualizaCampo();
